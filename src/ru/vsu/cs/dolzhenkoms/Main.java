@@ -20,7 +20,7 @@ public class Main {
             number = scn.nextInt();
         }
         catch (Exception e) {
-            System.out.print("You've entered wrong value. Please retry...");
+            System.out.print("You've entered wrong data for value. Please retry...");
             System.exit(1);
         }
         if (number < 1) {
